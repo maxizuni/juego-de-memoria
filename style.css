@@ -1,0 +1,110 @@
+body{
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    font-family: sans-serif;
+    color: white;
+}
+.main-container{
+    width: 100%;
+    max-width: 375px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+}
+.section1{
+    background-color: rgba(255, 255, 255, 0.21);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+}
+button{
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+.section2{
+    background-color: rgba(255, 255, 255, 0.21);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 200px;
+    height: 250px;
+    padding: 0 20px;
+}
+.statistics{
+border: 1px solid;
+height: 55px;
+border-radius: 8px;
+padding: 8px 20px;
+box-sizing: border-box;
+font-size: 17px;
+} 
+footer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    font-weight: 700;
+}
+img{
+    width: 80%;
+}
+@media (min-width:700px){
+    .main-container{
+        max-width: 730px;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 1px solid;
+    }
+    .section1{
+        background-color: rgba(255, 255, 255, 0.21);
+        padding: 0 10px 10px 10px;
+        border-radius: 8px;
+    }
+    h1{
+        text-align: center;
+    }
+    button{
+        width: 100px;
+        height: 100px;
+        font-size: 40px;
+        color: black;
+        font-weight: bold;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    .section2{
+        background-color: rgba(255, 255, 255, 0.21);
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        width: 250px;
+        height: 400px;
+        padding: 0 20px;
+    }
+    .statistics{
+    border: 1px solid;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    } 
+    footer{
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: aqua;
+        font-weight: 700;
+    } 
+}

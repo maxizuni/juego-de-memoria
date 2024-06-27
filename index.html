@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego de memoria</title>
+</head>
+<body>
+    <main class="main-container">
+        <section class="section1">
+            <h1>Juego de memoria</h1>
+            <table>
+                <tr>
+                    <td><button id="btn-0" onclick="uncover(0)"></button></td>
+                    <td><button id="btn-1" onclick="uncover(1)"></button></td>
+                    <td><button id="btn-2" onclick="uncover(2)"></button></td>
+                    <td><button id="btn-3" onclick="uncover(3)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="btn-4" onclick="uncover(4)"></button></td>
+                    <td><button id="btn-5" onclick="uncover(5)"></button></td>
+                    <td><button id="btn-6" onclick="uncover(6)"></button></td>
+                    <td><button id="btn-7" onclick="uncover(7)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="btn-8" onclick="uncover(8)"></button></td>
+                    <td><button id="btn-9" onclick="uncover(9)"></button></td>
+                    <td><button id="btn-10" onclick="uncover(10)"></button></td>
+                    <td><button id="btn-11" onclick="uncover(11)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="btn-12" onclick="uncover(12)"></button></td>
+                    <td><button id="btn-13" onclick="uncover(13)"></button></td>
+                    <td><button id="btn-14" onclick="uncover(14)"></button></td>
+                    <td><button id="btn-15" onclick="uncover(15)"></button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="section2">
+            <h2 id="succes" class="statistics">Aciertos:<br>0</h2>
+            <h2 id="time-left" class="statistics">Tiempo:<br>30 segundos</h2>
+            <h2 id="moves" class="statistics">Movimientos:<br>0</h2>
+        </section>
+    </main>
+    <footer>
+        <p>Juego porgramado por <a href="https://github.com/maxizuni">Maxi.Zuni</a></p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
